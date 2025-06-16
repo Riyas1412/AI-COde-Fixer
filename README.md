@@ -62,15 +62,51 @@ requests
 
 ---
 
-## 🧪 How It Works
+##🧪 How It Works
+Upon activating the “Run CodeFix AI” command in Visual Studio Code, the extension launches an integrated interface powered by Monaco Editor and organized into three functional tabs that streamline the debugging workflow:
 
-1. User selects **“Run CodeFix AI”** in VS Code.
-2. Code is shown in a Monaco Editor split-panel view.
-3. On analysis:
-   - **Locally** runs Pylint, Mypy, and Bandit.
-   - **Remotely** calls DeepSeek-Coder R1 API with code snippet.
-4. Results and AI suggestions are displayed side-by-side.
-5. User can apply or tweak suggestions in one click.
+🔧 AI Fix Tab
+Displays the AI-generated corrected version of the user's code in a read-only Monaco Editor.
+
+Provides intuitive action buttons:
+
+Accept: Automatically applies the AI-suggested fix into the main editor.
+
+Reject: Closes the extension and discards the proposed fix.
+
+Modify: Enables editing within the AI fix panel, allowing users to refine the suggestion manually. Once modified, users can still apply the changes using the Accept button.
+
+This tab ensures full control and flexibility when reviewing and applying code fixes.
+
+💡 Explanation Tab
+Offers a structured, human-readable breakdown of the detected issue:
+
+Issue: Identifies the specific bug or problem in the original code.
+
+Cause: Explains the underlying reason or logic flaw that led to the issue.
+
+Fix: Describes how the AI-generated solution resolves the problem.
+
+This educational breakdown helps users not only fix code but also understand the rationale behind each correction.
+
+🔍 Static Analysis Tab
+Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submitted code for:
+
+Syntax and logical errors
+
+Type inconsistencies
+
+Security vulnerabilities
+
+Results are displayed in an interactive panel, showing:
+
+Line numbers
+
+Severity levels
+
+Descriptive messages for each issue
+
+This helps ensure adherence to Python best practices and enhances code reliability.
 
 ---
 
@@ -100,17 +136,20 @@ codefix-ai/
 ├── frontend/
 │   ├── extension.js
 │   ├── package.json
-│   ├── README.md
 │   ├── dist/
+|       ├──index.html
 │   ├── media/
 │   ├── src/
+|       ├──App.jsx
+|       ├──ExplanationPanel.jsx
+|       ├──StaticAnalysisPanel.jsx
+|       ├──App.css
 │   └── test/
 ├── backend/
 │   ├── main.py
 │   ├── static_analysis.py
 │   ├── requirements.txt
 │   ├── source/
-│   └── test1.py
 └── README.md
 ```
 
