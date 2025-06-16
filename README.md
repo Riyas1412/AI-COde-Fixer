@@ -70,43 +70,43 @@ Displays the AI-generated corrected version of the user's code in a read-only Mo
 
 Provides intuitive action buttons:
 
-Accept: Automatically applies the AI-suggested fix into the main editor.
+- **Accept**: Automatically applies the AI-suggested fix into the main editor.
 
-Reject: Closes the extension and discards the proposed fix.
+- **Reject**: Closes the extension and discards the proposed fix.
 
-Modify: Enables editing within the AI fix panel, allowing users to refine the suggestion manually. Once modified, users can still apply the changes using the Accept button.
+- **Modify**: Enables editing within the AI fix panel, allowing users to refine the suggestion manually. Once modified, users can still apply the changes using the Accept button.
 
-This tab ensures full control and flexibility when reviewing and applying code fixes.
+- This tab ensures full control and flexibility when reviewing and applying code fixes.
 
 ### 💡 Explanation Tab
-Offers a structured, human-readable breakdown of the detected issue:
+- Offers a structured, human-readable breakdown of the detected issue:
 
-Issue: Identifies the specific bug or problem in the original code.
+- **Issue**: Identifies the specific bug or problem in the original code.
 
-Cause: Explains the underlying reason or logic flaw that led to the issue.
+- **Cause**: Explains the underlying reason or logic flaw that led to the issue.
 
-Fix: Describes how the AI-generated solution resolves the problem.
+- **Fix**: Describes how the AI-generated solution resolves the problem.
 
-This educational breakdown helps users not only fix code but also understand the rationale behind each correction.
+- This educational breakdown helps users not only fix code but also understand the rationale behind each correction.
 
 ### 🔍 Static Analysis Tab
-Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submitted code for:
+- Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submitted code for:
 
-Syntax and logical errors
+- **Syntax and logical errors**
 
-Type inconsistencies
+- **Type inconsistencies**
 
-Security vulnerabilities
+- **Security vulnerabilities**
 
-Results are displayed in an interactive panel, showing:
+- Results are displayed in an interactive panel, showing:
 
-Line numbers
+- **Line numbers**
 
-Severity levels
+- **Severity levels**
 
-Descriptive messages for each issue
+- **Descriptive messages for each issue**
 
-This helps ensure adherence to Python best practices and enhances code reliability.
+- This helps ensure adherence to Python best practices and enhances code reliability.
 
 ---
 
