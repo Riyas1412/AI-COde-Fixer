@@ -65,7 +65,7 @@ requests
 ## 🧪 How It Works
 Upon activating the “Run CodeFix AI” command in Visual Studio Code, the extension launches an integrated interface powered by Monaco Editor and organized into three functional tabs that streamline the debugging workflow:
 
-🔧 AI Fix Tab
+### 🔧 AI Fix Tab
 Displays the AI-generated corrected version of the user's code in a read-only Monaco Editor.
 
 Provides intuitive action buttons:
@@ -78,7 +78,7 @@ Modify: Enables editing within the AI fix panel, allowing users to refine the su
 
 This tab ensures full control and flexibility when reviewing and applying code fixes.
 
-💡 Explanation Tab
+### 💡 Explanation Tab
 Offers a structured, human-readable breakdown of the detected issue:
 
 Issue: Identifies the specific bug or problem in the original code.
@@ -89,7 +89,7 @@ Fix: Describes how the AI-generated solution resolves the problem.
 
 This educational breakdown helps users not only fix code but also understand the rationale behind each correction.
 
-🔍 Static Analysis Tab
+### 🔍 Static Analysis Tab
 Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submitted code for:
 
 Syntax and logical errors
