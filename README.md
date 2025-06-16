@@ -98,7 +98,7 @@ Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submi
 
 - **Security vulnerabilities**
 
-  Results are displayed in an interactive panel, showing:
+Results are displayed in an interactive panel, showing:
 
 - **Line numbers**
 
@@ -106,7 +106,7 @@ Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submi
 
 - **Descriptive messages for each issue**
 
-  This helps ensure adherence to Python best practices and enhances code reliability.
+This helps ensure adherence to Python best practices and enhances code reliability.
 
 ---
 
