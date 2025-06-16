@@ -62,7 +62,7 @@ requests
 
 ---
 
-##🧪 How It Works
+## 🧪 How It Works
 Upon activating the “Run CodeFix AI” command in Visual Studio Code, the extension launches an integrated interface powered by Monaco Editor and organized into three functional tabs that streamline the debugging workflow:
 
 🔧 AI Fix Tab
