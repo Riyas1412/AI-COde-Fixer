@@ -76,10 +76,10 @@ Provides intuitive action buttons:
 
 - **Modify**: Enables editing within the AI fix panel, allowing users to refine the suggestion manually. Once modified, users can still apply the changes using the Accept button.
 
-- This tab ensures full control and flexibility when reviewing and applying code fixes.
+This tab ensures full control and flexibility when reviewing and applying code fixes.
 
 ### 💡 Explanation Tab
-- Offers a structured, human-readable breakdown of the detected issue:
+Offers a structured, human-readable breakdown of the detected issue:
 
 - **Issue**: Identifies the specific bug or problem in the original code.
 
@@ -87,10 +87,10 @@ Provides intuitive action buttons:
 
 - **Fix**: Describes how the AI-generated solution resolves the problem.
 
-- This educational breakdown helps users not only fix code but also understand the rationale behind each correction.
+This educational breakdown helps users not only fix code but also understand the rationale behind each correction.
 
 ### 🔍 Static Analysis Tab
-- Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submitted code for:
+Integrates static analysis tools (Pylint, Mypy, and Bandit) to examine the submitted code for:
 
 - **Syntax and logical errors**
 
@@ -98,7 +98,7 @@ Provides intuitive action buttons:
 
 - **Security vulnerabilities**
 
-- Results are displayed in an interactive panel, showing:
+  Results are displayed in an interactive panel, showing:
 
 - **Line numbers**
 
@@ -106,7 +106,7 @@ Provides intuitive action buttons:
 
 - **Descriptive messages for each issue**
 
-- This helps ensure adherence to Python best practices and enhances code reliability.
+  This helps ensure adherence to Python best practices and enhances code reliability.
 
 ---
 
