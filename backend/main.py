@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-HF_API_TOKEN = "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"
+HF_API_TOKEN = "hf_token"
 
 client = InferenceClient(
     model="deepseek-ai/DeepSeek-R1",
