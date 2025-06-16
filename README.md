@@ -98,24 +98,19 @@ requests
 codefix-ai/
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── components/
-│   │   └── ...
-│   ├── dist/                 # webpack output
-│   ├── media/
-│   ├── test/
 │   ├── extension.js
 │   ├── package.json
-│   └── README.md
-│
+│   ├── README.md
+│   ├── dist/
+│   ├── media/
+│   ├── src/
+│   └── test/
 ├── backend/
 │   ├── main.py
 │   ├── static_analysis.py
 │   ├── requirements.txt
 │   ├── source/
 │   └── test1.py
-│
 └── README.md
 ```
 
