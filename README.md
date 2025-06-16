@@ -95,23 +95,7 @@ requests
 ## 🧱 Project Structure
 
 ```
-codefix-ai/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── components/
-│   │   └── ...
-│   ├── dist/ (webpack output)
-│   └── package.json
-│
-├── backend/
-│   ├── main.py
-│   ├── analysis.py
-│   └── requirements.txt
-│
-└── README.md
-```
+<pre> project-root/ ├── frontend/ │ ├── extension.js │ ├── package.json │ ├── README.md │ ├── dist/ │ ├── media/ │ ├── src/ │ └── test/ ├── backend/ │ ├── main.py │ ├── static_analysis.py │ ├── requirements.txt │ ├── source/ │ └── test1.py └── README.md </pre>
 
 ---
 
